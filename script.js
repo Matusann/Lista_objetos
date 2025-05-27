@@ -1,49 +1,47 @@
-const livro = {
-  titulo: "Narnia",
-  autor: "J.R.A. Matias",
-  ano: 1955,
-  generos: ["fantasia", "aventura"]
+const aldeao = {
+  nome: "Isabelle",
+  especie: "Cachorro",
+  personalidade: "Normal",
+  ocupacao: "Assistente",
+  hobbies: ["jardinagem", "organização"]
 };
 
-const carro = {
-  marca: "Toyota",
-  modelo: "Corolla",
-  ano: 2024,
-  cor: "prata",
-  km: 5000
+const mobília = {
+  nome: "Cama de Madeira",
+  tema: "Madeira",
+  preço: 1200,
+  interativo: true,
+  cores: ["marrom", "bege"]
 };
 
-const aluno = {
-  nome: "Aline Silva",
-  idade: 17,
-  turma: "3A",
-  notas: {
-    portugues: 8.5,
-    matematica: 9.0,
-    historia: 7.0
+const fruta = {
+  tipo: "Maçã",
+  valor: 100,
+  raro: false,
+  origem: "Árvore",
+  usos: ["comer", "plantar", "vender"]
+};
+
+const peixe = {
+  nome: "Dourado",
+  tamanho: "Grande",
+  valor: 15000,
+  habitat: "Rio",
+  disponibilidade: {
+    meses: ["junho", "julho", "agosto"],
+    horario: "4h às 21h"
   }
 };
 
-const produto = {
-  nome: "Smartphone",
-  marca: "Samsung",
-  modelo: "Galaxy S23",
-  preco: 2500.00,
-  especificacoes: {
-    tela: "AMOLED",
-    camera: "12MP"
-  }
+const ilha = {
+  nome: "Paraíso Tropical",
+  dono: "Jogador",
+  habitantes: 10,
+  clima: "Tropical",
+  recursos: ["frutas", "peixes", "insetos", "minerais"]
 };
 
-const cidade = {
-  nome: "São Paulo",
-  estado: "São Paulo",
-  pais: "Brasil",
-  populacao: 12396372,
-  clima: "tropical de altitude"
-};
-
-const objetos = { livro, carro, aluno, produto, cidade };
+const objetos = { aldeao, mobília, fruta, peixe, ilha };
 
 const listasDiv = document.getElementById('listas');
 
